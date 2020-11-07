@@ -10,7 +10,7 @@ body {
     resize: none;
     color: #000000;
     border-left: 1px solid black;
-    padding: 10px;
+    padding: 30px;
   }
   
   .jumbotron {
@@ -28,11 +28,12 @@ body {
   .time-block{
     text-align: center;
     border-radius: 15px;
+    height: 100px;
   }
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 100px;
     border-top: 1px solid white;;
   }
   
@@ -61,7 +62,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: green;
     color: white;
   }
   
@@ -69,4 +70,11 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  .mainDiv {
+      align: center
+  }
+.container {
+    text-align: center;
+}
   
